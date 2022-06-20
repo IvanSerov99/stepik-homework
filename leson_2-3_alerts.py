@@ -25,8 +25,8 @@ try:
     submit = browser.find_element(By.CSS_SELECTOR, ".btn.btn-primary[type='submit']")
     submit.click()
 finally:
-    # ожидание чтобы визуально оценить результаты прохождения скрипта
     time.sleep(2)
     # закрываем браузер после всех манипуляций
     browser.close()
     browser.quit()
+
